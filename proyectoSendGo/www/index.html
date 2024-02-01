@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<link rel="stylesheet" type="text/css" href="mobileui/style.css">
+        <meta name="format-detection" content="telephone=no">
+        <meta charset="utf-8">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">		
+        <title>Send &#38; GO</title>
+    </head>
+	
+	
+    <body class="padding grey-200" onload="revisarSesion()">	
+	
+		<div class="header deep-orange-400 align-center">			
+			<h1 style="font-family: 'Monoton'" >Send &#38; Go</h1>
+		</div>	
+		
+		<div class="centrar item">
+			<form enctype="multipart/form-data" action="http://192.168.1.143:5000/usuarios/inicio-sesion/" method="post" id="enviar">
+				<h1 style="font-size:20px" class="left"> <b> Inicio de Sesion</b> </h1>
+				<br>
+				<br>
+				<label class="left label-fixed" ><b>Rut</b></label>
+				</br>
+				<input class="left label-fixed" id="txtRut" type="text" name="txtRut" placeholder="12345678-9">
+				<label class="left label-fixed" ><b>Contrasena</b></label>
+				</br>
+				<input class="left label-fixed" id="txtContra" type="password" name="txtContra" placeholder="******">				
+				<input type="submit" name="iniciar" value="Iniciar Sesion" class ="btnposicion  form-submit-button" />
+				
+			</form>
+		</div>
+		
+		
+		<div class="footer deep-orange-400"> 
+		
+			<div class="align-center">
+			
+			<h1 style="font-family: 'Monoton'" > Servicios de impresiones </h1>
+			
+			</div>
+				
+		</div>
+	<script type="text/javascript" src="mobileui/mobileui.js"></script>	
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<!--<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>-->
+    <script type="text/javascript" src="cordova.js"></script>    
+    <script type="text/javascript" src="js/inicio_sesion.js"></script>
+	
+	
+    </body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap Admin Theme v3</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- styles -->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  	<div class="header">
+	     <div class="container">
+	        <div class="row">
+	           <div class="col-md-5 text-center"">
+	              <!-- Logo -->
+	              <div class="logo">
+	                 <h1><a href="index.html">Send &#38; GO Panel Administrativo</a></h1>
+				
+	           </div>
+	          </div>
+	     </div>
+	</div>
+
+    <div class="page-content">
+    	<div class="row">
+		  <div class="col-md-2">
+		  	<div class="sidebar content-box" style="display: block;">
+                <ul class="nav">
+                    <!-- Main menu -->
+                    <li class=""><a href="index.html"><i class="glyphicon glyphicon-home"></i> Inicio</a></li>                    
+                    <li class="current submenu">
+                         <a href="#">
+                            <i class="glyphicon glyphicon-user"></i> Usuario
+                            <span class="caret pull-right"></span>
+                         </a>
+                         <!-- Sub menu -->
+                         <ul>
+                            <li><a href="agregar_usuario.html">Agregar Usuario</a></li>
+                            <li class="current"><a href="modificar_usuario.html">Modificar Usuario</a></li>
+							<li><a href="listar_usuario.html">Listar Usuario</a></li>
+                        </ul>
+                    </li>
+					<li class="submenu">
+                         <a href="#">
+                            <i class="glyphicon glyphicon-print"></i> Impresion
+                            <span class="caret pull-right"></span>
+                         </a>
+                         <!-- Sub menu -->
+                         <ul>
+                            <li><a href="agregar_extension.html">Agregar Nueva Extension</a></li>
+                            <li><a href="borrar_impresion.html">Borrar Extension</a></li>
+							<li><a href="agregar_impresora.html">Agregar Impresora</a></li>
+                        </ul>
+                    </li>
+                </ul>
+             </div>
+		  </div>
+		  
+		  
+		<div class="col-md-8">
+		  	<div class="col">
+				<div class="col-md-6">
+	  					<div class="content-box-large">
+			  				<div class="panel-heading">
+					            <div class="panel-title">Buscar Usuario</div>
+					    </div>
+			  				<div class="panel-body">
+			  					<div class="form-horizontal" >
+								  <div class="form-group">
+								    <label for="inputEmail3" class="col-sm-2 control-label">Rut</label>
+								    <div class="col-sm-10">
+								      <input type="text" class="form-control" id="txt_rut" placeholder="12345678-9">
+								    </div>
+								  </div>
+								  <div class="form-group">
+										<div class="col-sm-offset-2 col-sm-10">
+										  <button  id="buscar" class="btn btn-primary">Buscar</button>
+										</div>
+									  </div>
+								  
+								</div>
+			  				</div>
+			  			</div>
+				</div>
+			</div>
+				<div class="col">
+					<div class="col-md-6">
+							<div class="content-box-large">
+								<div class="panel-heading">
+									<div class="panel-title">Modificar Usuario</div>
+							</div>
+								<div class="panel-body">
+									<div class="form-horizontal">
+									  <div class="form-group">
+										<label for="inputEmail3" class="col-sm-2 control-label">Nombre</label>
+										<div class="col-sm-10">
+										  <input type="text" class="form-control" id="txt_nombre" placeholder="Cambiar Nombre">
+										</div>
+									  </div>
+									  <div class="form-group">
+										<label for="inputEmail3" class="col-sm-2 control-label">Apellido Paterno</label>
+										<div class="col-sm-10">
+										  <input type="text" class="form-control" id="txt_apellido_M" placeholder="Cambiar Apellido Materno">
+										</div>
+									  </div>
+									  <div class="form-group">
+										<label for="inputEmail3" class="col-sm-2 control-label">Apellido Paterno</label>
+										<div class="col-sm-10">
+										  <input type="text" class="form-control" id="txt_apellido_P" placeholder="Cambiar Apellido Paterno">
+										</div>
+									  </div>
+
+									  <div class="form-group">
+										<label for="inputPassword3" class="col-sm-2 control-label">contrase&ntilde;a</label>
+										<div class="col-sm-10">
+										  <input type="password" class="form-control" id="txt_contra" placeholder="Cambiar contrase&ntilde;a">
+										</div>
+									  </div>
+									  <div class="form-group">
+										<label for="inputPassword3" class="col-sm-2 control-label">Correo Electronico</label>
+										<div class="col-sm-10">
+										  <input type="email" class="form-control" id="txt_correo" placeholder="Cambiar Correo">
+										</div>
+									  </div>
+									  <div class="form-group">
+										<div class="col-sm-offset-2 col-sm-10">
+										  <button  id="cambiar" class="btn btn-primary">Modificar usuario</button>
+										</div>
+									  </div>
+									</div>
+								</div>
+							</div>
+					</div>
+				</div>			
+		</div>
+		
+		
+		
+		</div>
+	</div>
+	
+    <footer>
+         <div class="container fixed-bottom">
+         
+            <div class="copy text-center ">
+               Send &#38; GO 
+            </div>
+            
+         </div>
+      </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+	<script src="js/modificar.js"></script>
+  </body>
+</html>

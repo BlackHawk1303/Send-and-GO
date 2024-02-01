@@ -1,0 +1,89 @@
+{
+  "_from": "git+https://github.com/MohammadWaleed/cordova-plugin-file-chooser.git",
+  "_id": "cordova-plugin-file-chooser@1.6.1",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/cordova-plugin-file-chooser",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/MohammadWaleed/cordova-plugin-file-chooser.git",
+    "rawSpec": "https://github.com/MohammadWaleed/cordova-plugin-file-chooser.git",
+    "saveSpec": "git+https://github.com/MohammadWaleed/cordova-plugin-file-chooser.git",
+    "fetchSpec": "https://github.com/MohammadWaleed/cordova-plugin-file-chooser.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/MohammadWaleed/cordova-plugin-file-chooser.git#6173a13d7157178f787e7c8de8acb7c388829c42",
+  "_spec": "https://github.com/MohammadWaleed/cordova-plugin-file-chooser.git",
+  "_where": "C:\\send and go\\proyectoSendGo",
+  "author": {
+    "name": "Apache Software Foundation"
+  },
+  "bugs": {
+    "url": "https://github.com/MohammadWaleed/cordova-plugin-file-chooser/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-file-chooser",
+    "platforms": [
+      "android",
+      "amazon-fireos",
+      "ubuntu",
+      "blackberry10",
+      "ios",
+      "wp7",
+      "wp8",
+      "windows8",
+      "windows",
+      "firefoxos",
+      "browser"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova File Chooser Plugin",
+  "devDependencies": {
+    "jscs": "^2.6.0",
+    "jshint": "^2.8.0"
+  },
+  "engines": {
+    "cordovaDependencies": {
+      "2.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
+  "homepage": "https://github.com/MohammadWaleed/cordova-plugin-file-chooser#readme",
+  "keywords": [
+    "cordova",
+    "file",
+    "transfer",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-amazon-fireos",
+    "cordova-ubuntu",
+    "cordova-blackberry10",
+    "cordova-ios",
+    "cordova-wp7",
+    "cordova-wp8",
+    "cordova-windows8",
+    "cordova-windows",
+    "cordova-firefoxos",
+    "cordova-browser"
+  ],
+  "license": "Apache-2.0",
+  "name": "cordova-plugin-file-chooser",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohammadWaleed/cordova-plugin-file-chooser.git"
+  },
+  "scripts": {
+    "lint": "jshint www && jshint src && jshint tests",
+    "style": "jscs tests/tests.js",
+    "test": "npm run lint && npm run style"
+  },
+  "version": "1.6.1"
+}
